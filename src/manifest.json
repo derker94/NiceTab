@@ -1,0 +1,26 @@
+{
+  "name": "NiceTab",
+  "description": "自定义新标签页",
+  "version": "1.0",
+  "icons": {
+    "16": "logo_16.png",
+    "48": "logo_48.png",
+    "128": "logo_128.png"
+  },
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "browser_action": {
+      "default_icon": "logo_48.png",
+      "default_title": "NiceTab-自定义新标签页"
+  },
+  "chrome_url_overrides" : {
+    "newtab": "new_tab.html"
+  },
+  "permissions": [
+    "declarativeContent",    
+    "tabs",
+    "storage"
+  ],
+  "manifest_version": 2
+}
