@@ -1,4 +1,4 @@
-# NiceTab
+# chrome-plugin-tab
 
 A chrome plug-in for customize the new tab page.
 
